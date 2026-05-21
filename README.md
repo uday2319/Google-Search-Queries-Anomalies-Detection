@@ -1,20 +1,29 @@
 # Google-Search-Queries-Anomalies-Detection :
- I have build a Project which finds unusual patterns or spikes/anomalies in Google search data .  
- Goal: To detect sudden changes in what people are searching/ looking for and also it  Helps identify trending topics ,news, errors, or abnormal behavior and
- i used  machine learning model(IsolationForest Model) to compare/diffrentiate the normal vs unusual search trends in google search .
- **Project**: Google Search Query Anomaly Detection
+ 🔍 Project Overview :
+Developed an advanced Machine Learning-based anomaly detection system to identify unusual patterns and spikes in Google search query data. The project applies Isolation Forest, an unsupervised anomaly detection algorithm, to automatically detect abnormal trends that could signal unexpected user behavior, event spikes, or system irregularities.
 
-1. Objective: To detect unusual or abnormal search patterns in Google search query data.
-2. Dataset Used: Google Search Query dataset containing daily or periodic search volumes for specific terms.
-3. Goal: Identify sudden spikes or drops in search   frequency that indicate anomalies or emerging trends.
-4.Machine Learning Algorithm: Used Isolation Forest, an unsupervised anomaly detection algorithm that isolates outliers based on random splits.
-5. Working:
-  ->The model learns normal search behavior.
-  ->It flags data points that differ significantly as anomalies.
- 6.Visualization Tool: python, scikit-learn,pandas for data frames,Isolationforest(ML Model) and  Used Plotly for interactive visualization of normal and anomalous data points
+🧠 Key Highlights :
+Algorithm Used: Implemented the Isolation Forest algorithm for robust detection of anomalies in large-scale search datasets.
 
- 7.Result: The  graph clearly shows where search queries behave unusually over time.
+Data Source: Utilized Google Search Query dataset, containing real-time query frequencies across multiple categories.
 
-  8.Application: Can be used for trend analysis, event detection, or identifying data irregularities in real-world search patterns.
+Preprocessing: Performed detailed data cleaning, normalization, and outlier handling to ensure accurate detection.
 
+Visualization: Designed interactive dashboards using Plotly to visualize normal vs anomalous search patterns dynamically.
 
+Evaluation: Achieved high interpretability with clear anomaly scoring, enabling easier identification of significant deviations.
+
+Tech Stack: Python, Pandas, NumPy, Scikit-learn, Plotly, Jupyter Notebook
+
+Outcome: The system successfully detects abnormal behavior in search queries, providing valuable insights for trend analysis and real-time monitoring.
+
+📊 **Core Objectives:**
+-->Automate anomaly detection on time-series search data.
+-->Provide visual interpretability for business and research use cases.
+-->Enable scalable and efficient AI-driven monitoring for large query datasets.
+-->Focused on unsupervised anomaly detection (no labeled data required).
+-->Combined machine learning logic with data visualization for clear insights.
+-->Scalable design that can adapt to other datasets and monitoring systems.
+
+🔗 GitHub Repository
+👉 https://github.com/uday2319/Google-Search-Queries-Anomalies-Detection
