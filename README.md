@@ -3,12 +3,7 @@
 # 🔍 Google Search Queries — Anomaly Detection
 
 **Finding the search queries that don't behave like the rest. This project explores Google Search Console query data, then uses an Isolation Forest to flag queries with unusual clicks, impressions, CTR or ranking position.**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+ 
 
 ![Algorithm](https://img.shields.io/badge/Algorithm-Isolation%20Forest-success?style=flat-square)
 ![Learning](https://img.shields.io/badge/Learning-Unsupervised-blue?style=flat-square)
